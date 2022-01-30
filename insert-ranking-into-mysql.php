@@ -5,7 +5,7 @@ $password = "***************";
 $dbname = "xxxxxxx_wpYYY";
 
 /**
- Create database named book_ranking with:
+ Create table named book_ranking with:
    * thedate (datetime)
    * ranking (int)
    * category (varchar 64)
