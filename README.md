@@ -1,7 +1,7 @@
-** Used to insert amazon book ranking into mysql database
+## Used to insert amazon book ranking into mysql database
 
 
-*** Enabling scrape on Wordpress host
+### Enabling scrape on Wordpress host
 
 put into cron, executed in this order at least 10 minutes apart:
 
@@ -12,7 +12,7 @@ put into cron, executed in this order at least 10 minutes apart:
 do not put these files into public_html, they go into home directory where they cannot be executed by end users.
 
 
-*** Displaying Charts in WordPress
+### Displaying Charts in WordPress
 
 Wordpress plugin "SQL Chart Builder" by Guaven Labs can create graph for multiple category rankings:
 
