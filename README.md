@@ -1,20 +1,20 @@
 ## Insert amazon book ranking into mysql database for WordPress
 
-These various scripts are typically used on a shared VPS running Wordpress to:
+These various scripts would be used on a shared VPS running Wordpress to:
   * Scrape an Amazon book page
   * Parse out its rankings
   * Insert these rankings into the Wordpress MySQL database
-  * Present these ranking as a graph using a WordPress Plugin
+  * Present these ranking as a chart using a WordPress Plugin
 
 ### Enabling scrape on Wordpress host
 
-put into cron, executed in this order at least 10 minutes apart:
+put these into cron, executed in this order at least 10 minutes apart:
 
 	/usr/bin/php5 /home/xxxxxx/scrape-amazon-book-page.php
-	/home/xxxxxx/parse_book_ranking.sh
+	/home/xxxxxx/parse_book_ranking.sh > /home/xxxxxx/todays_amazon_ranking.csv
 	/usr/bin/php5 /home/xxxxxx/insert-ranking-into-mysql.php
 
-do not put these files into public_html, they go into home directory where they cannot be executed by end users.
+Do not put these files into public_html, they go into home directory where they cannot be executed by end users.
 
 
 ### Displaying Charts in WordPress
