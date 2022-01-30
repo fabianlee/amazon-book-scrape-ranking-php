@@ -21,13 +21,13 @@ do not put these files into public_html, they go into home directory where they 
 
 Wordpress plugin [SQL Chart Builder](https://wordpress.org/plugins/sql-chart-builder/) by Guaven Labs can create graph for multiple category rankings:
 
-sql:
-select thedate,ranking from book_ranking where category="Category1" order by thedate asc;
-select thedate,ranking from book_ranking where category="Category2" order by thedate asc;
+	sql:
+	select thedate,ranking from book_ranking where category="Category1" order by thedate asc;
+	select thedate,ranking from book_ranking where category="Category2" order by thedate asc;
 
-label for x: thedate
-sql for x: thedate
-label for y: category1,category2
-sql for y: ranking
+	label for x: thedate
+	sql for x: thedate
+	label for y: category1,category2
+	sql for y: ranking
 
 paste shortcode to chart into Post/Page
