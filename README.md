@@ -10,9 +10,9 @@ These various scripts are typically used on a shared VPS running Wordpress to:
 
 put into cron, executed in this order at least 10 minutes apart:
 
-/usr/bin/php5 /home/xxxxxx/scrape-amazon-book-page.php
-/home/xxxxxx/parse_book_ranking.sh
-/usr/bin/php5 /home/xxxxxx/insert-ranking-into-mysql.php
+	/usr/bin/php5 /home/xxxxxx/scrape-amazon-book-page.php
+	/home/xxxxxx/parse_book_ranking.sh
+	/usr/bin/php5 /home/xxxxxx/insert-ranking-into-mysql.php
 
 do not put these files into public_html, they go into home directory where they cannot be executed by end users.
 
