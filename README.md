@@ -1,5 +1,10 @@
-## Used to insert amazon book ranking into mysql database
+## Insert amazon book ranking into mysql database
 
+These various scripts are typically used on a shared VPS running Wordpress to:
+  * Scrape an Amazon book page
+  * Parse out its rankings
+  * Insert these rankings into the Wordpress MySQL database
+  * Present these ranking as a graph using a WordPress Plugin
 
 ### Enabling scrape on Wordpress host
 
