@@ -19,7 +19,7 @@ do not put these files into public_html, they go into home directory where they 
 
 ### Displaying Charts in WordPress
 
-Wordpress plugin "SQL Chart Builder" by Guaven Labs can create graph for multiple category rankings:
+Wordpress plugin "SQL Chart Builder"[https://wordpress.org/plugins/sql-chart-builder/] by Guaven Labs can create graph for multiple category rankings:
 
 sql:
 select thedate,ranking from book_ranking where category="Category1" order by thedate asc;
